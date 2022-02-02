@@ -1,0 +1,37 @@
+ada beberapa catatan belajar js
+yaitu atribut event seperti 
+<script onclick="('')">
+atribute sering diawali dengan on
+
+	output javascript
+
+salah satu fungsi console adalah untuk debugging
+mengecek sesuatu yang salah
+
+alert = untuk menampilkan jendela dialog seperti
+alert=('terimakasih!');
+
+document yaitu untuk menampilkan objek yang mewakili html
+misal untuk nulis document.write
+
+innerHTML yaitu atribute dalam objek element yang berisi STRING HTML
+<script>
+	var hasil = document.getElementById("hasil output");
+	hasil.innerHTML = "<p> i like javascript </p>";
+</script>
+
+Fungsi console.log() untuk menampilkan output ke console Javascript;
+Fungsi alert() untuk menampilkan output ke jendela dialog;
+Fungsi document.write() untuk menulis output ke dokumen HTML;
+Atribut innerHTML untuk menampilkan output ke elemen HTML yang lebih spesifik.
+
+Berdasarkan contoh-contoh di atas, kita bisa mengetahui… Kapan waktu yang tepat untuk menggunakan alert(), confirm() dan prompt().
+
+Saat kita hanya ingin menampilkan informasi saja, maka gunakan alert().
+
+Saat kita ingin jawaban konfirmasi dari pengguna, maka gunakan confirm().
+
+…dan apabila kita ingin mengambil data teks dari pengguna, maka gunakan prompt().
+
+perulangan repeat
+document.write("Ulangi kalimat ini! ".repeat(100));

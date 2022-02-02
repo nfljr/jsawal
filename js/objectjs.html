@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object javascript</title>
+
+    <script>
+       function person(firstname , lastname){
+           //properti
+           this.firstname = firstname;
+           this.lastname = lastname;
+
+           //method
+           this.fullname = function(){
+               return `${this.firstname} ${this.lastname}`
+           }
+           this.showname = function(){
+               document.write(this.fullname());
+           }
+       }
+
+       var person1 = new person("puja","naufal");
+       var person2 = new person("rena","widia");
+       var person3 = new person("alesha","nasenja");
+
+       person1.showname();
+       document.write("<br>");
+       person2.showname();
+       document.write("<br>");
+       person3.showname();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
